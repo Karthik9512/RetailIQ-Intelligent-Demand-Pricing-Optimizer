@@ -1,0 +1,73 @@
+# -------------------------
+# Python cache files
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual Environment
+# -------------------------
+venv/
+env/
+ENV/
+.venv/
+f1_venv/
+
+# -------------------------
+# Jupyter Notebook checkpoints
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# PyCharm
+# -------------------------
+.idea/
+
+# -------------------------
+# Mac / Windows system files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Streamlit cache
+# -------------------------
+.streamlit/
+
+# -------------------------
+# Data files (optional)
+# If dataset is large, ignore it
+# -------------------------
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# -------------------------
+# Model files
+# -------------------------
+*.pkl
+*.joblib
+*.h5
+
+# -------------------------
+# Build / distribution
+# -------------------------
+build/
+dist/
+*.egg-info/
